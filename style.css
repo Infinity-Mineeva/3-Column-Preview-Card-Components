@@ -1,0 +1,142 @@
+/* GLOBAL STYLES */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+}
+
+/* VARIABLE DECLARATIONS */
+
+:root {
+  --main-font: "Lexend Deca", sans-serif;
+  --heavy-font: "Big Shoulders Display", cursive;
+  --orange: hsl(31, 77%, 52%);
+  --drk-cyan: hsl(184, 100%, 22%);
+  --vDrk-cyan: hsl(179, 100%, 13%);
+  --clear-white: hsla(0, 0%, 100%, 0.75);
+  --vLight-gray: hsl(0, 0%, 95%);
+}
+
+
+body {
+  background: var(--vLight-gray);
+  font-family: var(--main-font);
+}
+
+
+
+/* TYPOGRAPHY */
+
+.title {
+  font-family: var(--heavy-font);
+  font-weight: 700;
+  color: var(--vLight-gray);
+  text-transform: uppercase;
+  font-size: 2.6rem;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.text {
+  line-height: 1.7em;
+  color: var(--clear-white);
+  font-weight: 400;
+}
+
+/* BODY STYLES */
+.container {
+  padding: 3em;
+  margin: 5em 0;
+}
+
+.card {
+  padding: 2em 2em;
+}
+
+.sedan {
+  background: var(--orange);
+  border-radius: 10px 10px 0 0;
+}
+
+.sedan a {
+  color: var(--orange);
+}
+
+.suv {
+  background: var(--drk-cyan);
+}
+
+.suv a { 
+  color: var(--drk-cyan);
+}
+
+.luxury {
+  background: var(--vDrk-cyan);
+  border-radius: 0 0 10px 10px;
+}
+
+
+.luxury a {
+  color: var(--vDrk-cyan);
+}
+
+
+/* BUTTONS */
+.call-to-action {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--vLight-gray);
+  padding: .7em 2em;
+  margin: 1em 0;
+  border-radius: 40px;
+}
+
+.call-to-action:hover,
+.call-to-action:focus {
+  border: 1px solid var(--vLight-gray);
+  background: transparent;
+  transition-duration: 0.4s;
+  color: var(--vLight-gray);
+}
+
+
+/* ATTRIBUTION */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+.card {
+  padding: 2em 2em;
+  max-width: 225px;
+}
+
+  .sedan {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .luxury {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .call-to-action {
+    margin-top: 5em;
+  }
+}
