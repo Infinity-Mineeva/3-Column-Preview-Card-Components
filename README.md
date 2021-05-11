@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-preview-card-components-html-css-Pb-HRPZzV](https://www.frontendmentor.io/solutions/3-column-preview-card-components-html-css-Pb-HRPZzV)
+- Live Site URL: [https://infinity-mineeva.github.io/3-Column-Preview-Card-Components/](https://infinity-mineeva.github.io/3-Column-Preview-Card-Components/)
 
 ## My process
 
